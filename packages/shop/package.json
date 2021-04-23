@@ -2,10 +2,11 @@
   "name": "@pick-bazar/shop",
   "version": "5.0.2",
   "private": true,
+ 
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "shop-start": "next start",
     "shop-dev": "next"
   },

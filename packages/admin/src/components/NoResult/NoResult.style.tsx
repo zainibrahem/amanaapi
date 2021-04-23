@@ -48,7 +48,7 @@ export const Button = styled('button', () => ({
   alignItems: 'center',
   justifyContent: 'center',
   color: '#ffffff',
-  backgroundColor: '#009e7f',
+  backgroundColor: '#F39C12',
   height: '50px',
   borderRadius: '3px',
   fontFamily: `'Lato', sans-serif`,

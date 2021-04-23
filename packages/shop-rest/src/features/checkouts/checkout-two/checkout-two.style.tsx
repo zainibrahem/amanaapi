@@ -158,7 +158,7 @@ export const CouponCode = styled.p`
 
   span {
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#F39C12')};
     margin-left: 10px;
   }
 `;
@@ -197,7 +197,7 @@ export const HaveCoupon = styled.button`
   font-family: ${themeGet('fonts.body', 'Lato')};
   font-size: ${themeGet('fontSizes.base', '15')}px;
   font-weight: ${themeGet('fontWeights.regular', '400')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#F39C12')};
   width: auto;
   height: auto;
   display: inline-block;

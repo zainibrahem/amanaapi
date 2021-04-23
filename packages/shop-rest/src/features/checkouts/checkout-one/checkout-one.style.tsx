@@ -141,7 +141,7 @@ export const PaymentCardList = styled.div`
       opacity: 0;
       &:checked {
         & ~ .payment-card {
-          border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+          border-color: ${themeGet('colors.primary.regular', '#F39C12')};
         }
       }
     }
@@ -159,7 +159,7 @@ export const SavedCard = styled.div`
     font-family: ${themeGet('fonts.body', 'Lato')};
     font-size: ${themeGet('fontSizes.sm', '13')}px;
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#F39C12')};
     margin-bottom: 10px;
     display: block;
   }
@@ -186,7 +186,7 @@ export const AddCard = styled.div`
       margin-bottom: 5px;
     }
     &:hover {
-      border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+      border-color: ${themeGet('colors.primary.regular', '#F39C12')};
     }
   }
   .safe-label {
@@ -235,7 +235,7 @@ export const OtherPayOption = styled.div`
       opacity: 0;
       &:checked {
         & ~ span {
-          border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+          border-color: ${themeGet('colors.primary.regular', '#F39C12')};
           background-color: ${themeGet('colors.white', '#ffffff')};
         }
       }
@@ -280,7 +280,7 @@ export const AddcontactWrapper = styled.div`
       margin-right: 5px;
     }
     &:hover {
-      border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+      border-color: ${themeGet('colors.primary.regular', '#F39C12')};
     }
   }
 `;
@@ -406,7 +406,7 @@ export const CouponCode = styled.p`
 
   span {
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#F39C12')};
     margin-left: 5px;
   }
 `;

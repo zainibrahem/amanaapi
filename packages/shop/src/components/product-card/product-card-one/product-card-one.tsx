@@ -137,11 +137,36 @@ const ProductCard: React.FC<ProductCardProps> = ({
         ) : null}
       </ProductImageWrapper>
       <ProductInfo>
-        <h3 className="product-title">{title}</h3>
-        <span className="product-weight">{weight}</span>
+        <h3 className="product-title" style={{fontSize:'1.3rem'}} >{title}</h3>
+        <p style={{fontSize:'1rem'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui soluta mollitia cumque hic ea,</p>
+        <h3 className="product-title" style={{fontSize:'1.1rem',marginTop:'5px'}} >
+          {currency}
+          {price}
+        </h3>
+        <p></p>
+        <span className="product-weight">
+          {currency}
+          {price}
+        </span>
         <div className="product-meta">
-          <div className="productPriceWrapper">
-            {discountInPercent ? (
+          <div className="productPriceWrapper" style={{justifyContent:"center"}}>
+            <span className="onhover" style={{fontSize:".8rem",textAlign:"center"}}>
+                Lorem ipsum dolor sit amet, consetetur
+            </span>
+
+            <Button
+              className="hidd"
+              variant="secondary"
+              borderRadius={100}
+              onClick={handleAddClick}
+            >
+               <ButtonText>
+                <FormattedMessage id="addCartButton" defaultMessage="+ Add To Cart" />
+              </ButtonText>
+             
+            </Button>
+
+            {/* {discountInPercent ? (
               <span className="discountedPrice">
                 {currency}
                 {price}
@@ -151,10 +176,10 @@ const ProductCard: React.FC<ProductCardProps> = ({
             <span className="product-price">
               {currency}
               {salePrice ? salePrice : price}
-            </span>
+            </span> */}
           </div>
 
-          {!isInCart(data.id) ? (
+          {/* {!isInCart(data.id) ? (
             <Button
               className="cart-button"
               variant="secondary"
@@ -173,7 +198,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
               onIncrement={handleAddClick}
               className="card-counter"
             />
-          )}
+          )} */}
         </div>
       </ProductInfo>
     </ProductCardWrapper>

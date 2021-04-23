@@ -66,9 +66,9 @@ const CategoryPage: React.FC<any> = ({ deviceType }) => {
             <Sidebar type={PAGE_TYPE} deviceType={deviceType} />
           </MobileCarouselDropdown>
           <MainContentArea>
-            <SidebarSection>
+            {/* <SidebarSection>
               <Sidebar type={PAGE_TYPE} deviceType={deviceType} />
-            </SidebarSection>
+            </SidebarSection> */}
             <ContentSection>
               <div ref={targetRef}>
                 <Products

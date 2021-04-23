@@ -47,7 +47,7 @@ type ProductsProps = {
 };
 export const Products: React.FC<ProductsProps> = ({
   deviceType,
-  fetchLimit = 20,
+  fetchLimit = 18,
   loadMore = true,
   type,
 }) => {
@@ -158,7 +158,7 @@ export const Products: React.FC<ProductsProps> = ({
         {data.products.items.map((item: any, index: number) => (
           <ProductsCol
             key={index}
-            style={type === 'book' ? { paddingLeft: 0, paddingRight: 1 } : {}}
+            style={type === 'grocery' ? { paddingLeft: 0, paddingRight: 1,marginRight:6 } : {}}
           >
             <ProductCardWrapper>
               <Fade

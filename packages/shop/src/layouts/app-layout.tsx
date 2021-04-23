@@ -43,7 +43,11 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
             isHomePage ? 'home' : ''
           }`}
         />
-        <CategoryHeader></CategoryHeader>
+        {isHomePage?
+        <CategoryHeader className={`${isSticky ? 'sticky' : 'unSticky'}`}></CategoryHeader>
+        :""
+        
+      }
       </Sticky>
       {children}
     </LayoutWrapper>

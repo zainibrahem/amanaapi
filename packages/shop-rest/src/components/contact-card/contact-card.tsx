@@ -130,7 +130,7 @@ const StyledInput = styled.input`
   }
 
   &:focus {
-    border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+    border-color: ${themeGet('colors.primary.regular', '#F39C12')};
   }
 
   &::placeholder {

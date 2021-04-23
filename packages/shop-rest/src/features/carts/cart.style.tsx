@@ -40,13 +40,13 @@ const PopupHeader = styled.div`
 const PopupItemCount = styled.div`
   display: inline-flex;
   align-items: center;
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#F39C12')};
 
   span {
     font-family: ${themeGet('fonts.body', 'Lato')};
     font-size: ${themeGet('fontSizes.base', '15')}px;
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#F39C12')};
     padding-left: 10px;
 
     @media (max-width: 767px) {
@@ -141,7 +141,7 @@ const ItemPrice = styled.span`
   font-family: ${themeGet('fonts.body', 'Lato')};
   font-size: ${themeGet('fontSizes.base', '15')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#F39C12')};
   margin-bottom: 10px;
 `;
 
@@ -197,7 +197,7 @@ const PromoCode = styled.span`
     font-family: ${themeGet('fonts.body', 'Lato')};
     font-size: ${themeGet('fontSizes.base', '15')}px;
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#F39C12')};
     transition: color 0.35s ease;
     &:hover {
       color: ${themeGet('colors.primary.hover', '#019376')};
@@ -211,7 +211,7 @@ const CheckoutButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: ${themeGet('colors.primary.regular', '#009e7f')};
+  background-color: ${themeGet('colors.primary.regular', '#F39C12')};
   padding: 0;
   border-radius: 48px;
   box-shadow: ${themeGet('shadows.base', '0 3px 6px rgba(0, 0, 0, 0.16)')};
@@ -264,7 +264,7 @@ const PriceBox = styled.span`
   font-family: ${themeGet('fonts.body', 'Lato')};
   font-size: ${themeGet('fontSizes.base', '15')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#F39C12')};
   margin-right: 2px;
 
   @media (max-width: 767px) {
@@ -323,7 +323,7 @@ const CouponCode = styled.p`
 
   span {
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#F39C12')};
     margin-left: 5px;
   }
 `;

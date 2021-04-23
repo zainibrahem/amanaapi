@@ -15,7 +15,7 @@ export function createProductSamples() {
         'The lemon/lime, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.',
       type: 'grocery',
       image:
-        'https://res.cloudinary.com/redq-inc/image/upload/c_fit,q_auto:best,w_300/v1589614568/pickbazar/grocery/GreenLimes_jrodle.jpg',
+        'https://5top.nl/wp-content/uploads/2020/04/Beste-laptop.jpg',
       gallery: [
         {
           url:
@@ -63,7 +63,7 @@ export function createProductSamples() {
         'The lemon/lime, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.',
       type: 'grocery',
       image:
-        'https://res.cloudinary.com/redq-inc/image/upload/c_fit,q_auto:best,w_300/v1589614568/pickbazar/grocery/Yellow_Limes_y0lbyo.jpg',
+        'https://www.pcspecialist.nl/images/landing/nvidia/rtx-laptops/30-laptops-feat1-sm.jpg',
       gallery: [
         {
           url:

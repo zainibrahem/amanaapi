@@ -33,3 +33,4 @@ yarn-error.log*
 #deployment
 .now
 .vercel
+.vercel

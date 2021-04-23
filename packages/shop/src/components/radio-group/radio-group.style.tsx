@@ -27,7 +27,7 @@ const RadioGroupWrapper = styled.div`
     transition: all 0.25s ease;
 
     &.active {
-      border: 1px solid ${themeGet('colors.primary.regular', '#009e7f')};
+      border: 1px solid ${themeGet('colors.primary.regular', '#F39C12')};
       background-color: ${themeGet('colors.white', '#ffffff')};
     }
 
@@ -102,7 +102,7 @@ export const ActionButton = styled.button`
   color: ${themeGet('colors.white', '#ffffff')};
 
   &.edit-btn {
-    background-color: ${themeGet('colors.primary.regular', '#009e7f')};
+    background-color: ${themeGet('colors.primary.regular', '#F39C12')};
   }
   &.close-btn {
     background-color: ${themeGet('colors.secondary.regular', '#ff5b60')};

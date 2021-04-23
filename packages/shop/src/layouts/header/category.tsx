@@ -17,9 +17,12 @@ type Props = {
 
 const CategoryHeader: React.FC<Props> = ({ className }) => {
     return (
-        <CatsMenu>
+        <CatsMenu className={className}>
             <CatsNav>
-                <Catsli Label="All Categories"></Catsli>
+                <Catsli className="active" Label="All Categories"></Catsli>
+                <Catsli Label="Fruits"></Catsli>
+                <Catsli Label="Vegetables"></Catsli>
+                <Catsli Label="Technicals"></Catsli>
             </CatsNav>
         </CatsMenu>
     );

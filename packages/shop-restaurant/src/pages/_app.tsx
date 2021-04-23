@@ -38,7 +38,6 @@ export default function CustomApp({ Component, pageProps }: AppProps) {
               <AuthProvider>
                 <AppLayout>
                   <Component {...pageProps} />
-                  <DemoSwitcher />
                 </AppLayout>
               </AuthProvider>
             </LanguageProvider>

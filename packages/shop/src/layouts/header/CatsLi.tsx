@@ -3,11 +3,12 @@ import {Catsli} from './category.style';
 
 type Props = {
     Label?: string;
+    className?:string;
   };
   
-  const CatsLi: React.FC<Props> = ({ Label }) => {
+  const CatsLi: React.FC<Props> = ({ Label,className }) => {
       return (
-         <Catsli>{Label}</Catsli>
+         <Catsli className={className}>{Label}</Catsli>
       );
   }
   export default CatsLi;
